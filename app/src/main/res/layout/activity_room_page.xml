@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/xtPlan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/floor9"
+                android:gravity="top|center_vertical|center_horizontal"
+                android:text="Sample floor plan"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="45sp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtCategories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categories:"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtInside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bella Inside - $1000"
+                android:textColor="#83def7"
+                android:textSize="18sp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtBlueOceanView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bella Ocean View - $1300"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="18sp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtPink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wellness - $1800"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtGreenOceanView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fantasy - $2100"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="18sp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Information"
+                android:textColor="#177d9b"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/floorDescription" />
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:id="@+id/etRoomNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter the number of room"
+                android:inputType="number" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/txtRoomSelect"
+            android:text="Slect your room type:" />
+        <Spinner
+            android:id="@+id/spCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtCleaning"
+            android:text="@string/cleaning" />
+
+        <RadioGroup>
+
+            <RadioButton
+                android:id="@+id/rdbCleaningYes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rdbCleaningNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtBreakfast"
+            android:text="@string/breakfast" />
+        <RadioGroup>
+
+            <RadioButton
+                android:id="@+id/rdbBreackfastYes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/rdbBreackfastNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btnBook"
+            android:text="Book" />
+
+    </TableLayout>
+    </RelativeLayout>
+</ScrollView>
+
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/days5">
+
+                <TextView
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_tab1"
+                    android:textAlignment="center"
+                    android:textColor="#ff54ad"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"></TextView>
+
+                <TextView
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_tab2"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#ff54ad"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"></TextView>
+
+                <TextView
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_tab3"
+                    android:textAlignment="center"
+                    android:textColor="#ff54ad"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"></TextView>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

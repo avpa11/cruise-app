@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="339dp"
+        android:layout_height="139dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/juneaupage"
+        android:gravity="center"
+        android:text="Juneau"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtThings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Things To See:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtSitkaPort"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtThings"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:text="@string/txtJuneauPage"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSitkaPort"
+        android:layout_centerHorizontal="true"
+        android:text="To book:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtBook"
+        android:layout_below="@+id/txtBook">
+
+        <RadioButton
+            android:id="@+id/rdbPrivate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Private Tour" />
+
+        <RadioButton
+            android:id="@+id/rdbGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Group Tour" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etQtyJuneau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:ems="10"
+        android:hint="Enter number of people"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnBookJuneau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="Book" />
+</RelativeLayout>

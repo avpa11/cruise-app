@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/titleofthepage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PortsOfCall">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="@drawable/portsofcall"
+            android:gravity="center"
+            android:text="PORTS OF CALL"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/title">
+
+            <TableRow
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageViewjuneau"
+                    android:layout_width="120dp"
+                    android:layout_height="85dp"
+                    app:srcCompat="@drawable/juneau" />
+
+                <TextView
+                    android:id="@+id/txtjuneau"
+                    android:layout_width="76dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtJuneau"
+                    android:textColor="#8fdaf3"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textJuneayDesc"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/juneau" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="60dp"
+                android:layout_height="25dp">
+
+
+                <Button
+                    android:id="@+id/btnJuneauPT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    app:srcCompat="@drawable/sitka" />
+
+                <TextView
+                    android:id="@+id/txtSitka"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtSitka"
+                    android:textColor="#d35227"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSitkaDesc"
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/sitka" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="60dp"
+                android:layout_height="25dp" >
+
+                <Button
+                    android:id="@+id/btnSitkaPT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageViewSkagway"
+                    android:layout_width="120dp"
+                    android:layout_height="85dp"
+                    app:srcCompat="@drawable/skagway" />
+
+                <TextView
+                    android:id="@+id/txtskagway"
+                    android:layout_width="47dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/txtSkagway"
+                    android:textColor="#3b55b5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSkagwayDesc"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/juneau" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="60dp"
+                android:layout_height="25dp">
+
+
+                <Button
+                    android:id="@+id/btnSkagwayPT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Book" />
+
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+</ScrollView>

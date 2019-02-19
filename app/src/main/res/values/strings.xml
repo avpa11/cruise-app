@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="splashTitle">Welcome to \nVolna Cruise</string>
+    <!-- Main page-->
+    <string name="title_activity_main_page">Home Page</string>
+    <string name="mainTitle">Alaska</string>
+    <string name="description">Welcome to our special Alaska cruise!
+    \n You will explore the beauty of nature while experiencing a very comfortable
+        accomondation on our "Volna" ship. We are offering a very interesting
+    adventure that you will never forget!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Itenerary page-->
+    <string name="text_tab1">5 days Alaska cruise \nOur smallest itenerary is 5 days. Within this
+        time you will be able to explore the great Alaska by gliding through the Tracy Arm fjord.
+    Visit to Ketchikan (a plcae you;ll fall in love with), then spend a day exploring authentic totem pole parks. </string>
+    <string name="text_tab2">7 days Alaska cruise \nBy choosing a 7-days itenerary you will call upon the historic
+    mining and fishing towns of Skagway, Juneau and Sitka. Then you will enjoy 2 days at sea
+    to take advantage of our special onboard activities!</string>
+    <string name="text_tab3">9 days Alaska cruise \nThis 9-days itenerary includes 2 unforgettable days at sea,
+    an encounter with Hubband Glacier and stops to handful of the Last Frontier's most
+    treasured towns...</string>
+    <string name="text_tab_header">Alaska</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Onboard Activities Page-->
+    <string name="txt1">Onboard Concerts</string>
+    <string name="jazz">Jazz concerts are at 3pm</string>
+    <string name="pop">Pop concerts are at 6pm</string>
+    <string name="classical">Classical concerts are at 7pm</string>
+
+    <string name="txt2">Children activities</string>
+    <string name="cinemaChildren">Cartoons for children everyday at 10am</string>
+    <string name="play">Childrens theatrical plays everyday at 11am</string>
+    <string name="partychildren">Children parties at 5pm</string>
+
+    <!-- Ports Of Call Page-->
+    <string name="txtJuneau">Juneau</string>
+    <string name="txtSitka">Sitka</string>
+    <string name="txtSkagway">Skagway</string>
+
+    <string name="txtJuneauPage">Shopping, Mount Roberts Tramway, Mendenhall Glacier,
+        Alaska State Museum, Red Dog Saloon, Macaulay Salmon Hatchery, Glacier Gardens,
+        The Shrine of St. Therese</string>
+    <string name="txtSitkaPage">Shopping, New Archangel Dancers, The Great Outdoors,
+        Fortress of the Bear, Whale Park, Alaska Raptor Center, Sitka National Historical Park,
+    St. Michael’s Russian Orthodox Cathedral</string>
+
+    <string name="juneau">With its rugged mountains, sweeping glaciers and lush rainforests,
+        Juneau is a scenic wonderland everywhere you look.</string>
+    <string name="sitka">Get away from it all at this rustic seaport on Baranof Island that blends
+        Native American traditions and Russian culture</string>
+    <string name="skagway">Known as the legendary “Gateway to the Klondike” during the Gold Rush boom,
+        Skagway is a sleepy town frozen in time.</string>
+
+    <!-- Room Page -->
+    <string name="floorDescription">On all our living floors you will find 172 rooms. The first living floor starts with
+        the 5th level and goes up to 16th. All floor have a similar plan with similar rooms locted at the same places.
+    Fisrt number (ex. 5001) indicates the level. To book a room simply look at the sample plan and write
+    the number of wished room in the range of 5001 - 16173. </string>
+    <string name="cleaning">Do you want additional cleaning service for your room?</string>
+    <string name="breakfast">Would you like breakfast in room service?</string>
+
+    <string name="title_activity_ports">Ports</string>
+</resources>

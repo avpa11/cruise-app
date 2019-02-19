@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtInvoice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvoicePage">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt4"
+        android:background="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt3"
+        android:background="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt2"
+        android:background="@android:color/holo_red_light" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="134dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/Invoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="Invoice"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtVolna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Invoice"
+        android:layout_alignParentEnd="true"
+        android:text="Volna Cruise" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="47dp"
+        android:text="admin@gmail.com"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_toEndOf="@+id/txtAddService"
+        android:text="Invoice Date"
+        android:textColor="@android:color/black"
+        tools:text="Invoice Date:" />
+
+    <TextView
+        android:id="@+id/txtBillingAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtEmail"
+        android:text="Billing Address:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textBillingName"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtBillingAddress"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtBillingEmail"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textBillingName"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtOrderStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="147dp"
+        android:text="Order Status: Order"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtOrderDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="188dp"
+        android:text="Order Details:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt2"
+        android:layout_alignParentStart="true"
+        android:text="1"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="2"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt2"
+        android:text="3"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt3"
+        android:text="4"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txt1"
+        android:background="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt1"
+        android:background="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="2dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/txtOrderDetails"
+        android:layout_toEndOf="@+id/txt1"
+        android:background="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/txtRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt1"
+        android:layout_toEndOf="@+id/txt1"
+        android:text="Room"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtRoomInvoice"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txt1"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtAddService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView22"
+        android:text="Additional Room Service"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtRoomServiceInvoice"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtOnboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:layout_toEndOf="@+id/txt1"
+        android:text="Onboard Activities"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtPorts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt4"
+        android:layout_toEndOf="@+id/textView22"
+        android:text="Ports Of Call"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtOnboardInvoice"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt2"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtPortsInvoice"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt3"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt$5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt4"
+        android:layout_toStartOf="@+id/txtVolna"
+        android:text="$"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/txt$4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt3"
+        android:layout_toStartOf="@+id/txtVolna"
+        android:text="$"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/txt$3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:layout_toStartOf="@+id/txtVolna"
+        android:text="$"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/txt$"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/txtVolna"
+        android:text="$"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/txt$2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txt1"
+        android:layout_toStartOf="@+id/txtVolna"
+        android:text="$"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView19"
+        android:text="Total:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtTotalInvoice"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt4"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt$5">
+
+
+        <TextView
+            android:id="@+id/txtDetails"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="details"
+            android:visibility="visible"/>
+    </ScrollView>
+
+
+</RelativeLayout>

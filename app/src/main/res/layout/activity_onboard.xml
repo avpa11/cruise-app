@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/titleofthepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboardActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:background="@drawable/cruise"
+        android:gravity="center"
+        android:text="ACTIVITIES"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title">
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+        >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/concerthall" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="@string/txt1"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:id="@+id/txtJazz"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/jazz" />
+
+            <TextView
+                android:id="@+id/txtPop"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="@string/pop" />
+
+            <TextView
+                android:id="@+id/txtClassical"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/classical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="25dp">
+
+            <Button
+                android:id="@+id/btnJazz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book" />
+
+            <Button
+                android:id="@+id/btnPop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book" />
+
+            <Button
+                android:id="@+id/btnClassical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book" />
+        </TableRow>
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/activities" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="@string/txt2"
+                android:textColor="#3f51b7"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:id="@+id/txtCinema"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cinemaChildren" />
+
+            <TextView
+                android:id="@+id/txtPlay"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="@string/play" />
+
+            <TextView
+                android:id="@+id/txtParty"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/partychildren" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="60dp"
+            android:layout_height="25dp" >
+
+            <Button
+                android:id="@+id/btnCartoons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book" />
+
+            <Button
+                android:id="@+id/btnPlays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book" />
+
+            <Button
+                android:id="@+id/btnParties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/reservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="30sp" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
+</ScrollView>
